@@ -9,6 +9,5 @@ deploy:
   provider: heroku
   api_key:
     secure: "8be127dd-1cbe-4d07-bdd8-26768fe38c9a"
-    app:
-    master: pure-beach-92370-staging
-    production: pure-beach-92370-production
+    app: pure-beach-92370-production
+script: 'curl https://pure-beach-92370.herokuapp.com/'
