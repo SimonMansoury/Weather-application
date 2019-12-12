@@ -8,6 +8,6 @@ email: false
 deploy:
   provider: heroku
   api_key:
-    secure: "1773f27b-74e2-4269-b9ef-851b73f2a3e3"
+    secure: $API_KEY
     app: pure-beach-92370-production
 script: 'curl https://pure-beach-92370.herokuapp.com/'
