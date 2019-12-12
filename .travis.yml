@@ -7,7 +7,5 @@ notifications:
 email: false
 deploy:
   provider: heroku
-  api_key:
-    secure: $API_KEY
-    app: pure-beach-92370-production
-script: 'curl https://pure-beach-92370.herokuapp.com/'
+  api_key: $API_KEY
+  app: pure-beach-92370-production
